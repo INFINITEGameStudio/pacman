@@ -40,7 +40,7 @@ if(elapsedTime > timeStep )
 		{
 			sprite_index = spr_pacman_transferToNormal;
 			
-			if(global.elapsedGodMode > global.godModeTime + 2000000)
+			if(global.elapsedGodMode > global.godModeTime + godModeTransferTime)
 			{
 				global.elapsedGodMode = 0;
 				global.godMode = false;
