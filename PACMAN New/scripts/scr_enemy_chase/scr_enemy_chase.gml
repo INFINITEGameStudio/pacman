@@ -15,3 +15,5 @@ if(mp_grid_path(enemy_grid , enemy_path , x , y , target.x , target.y , false)){
 	path_delete(enemy_path);
 
 }
+
+return dir;

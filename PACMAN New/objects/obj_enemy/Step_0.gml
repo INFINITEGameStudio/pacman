@@ -1,9 +1,17 @@
 ///@description Choosing Direction
-dir = scr_enemy_scatter(old_dir , x  , y );
 if(!is_moving){
 	
-	//scr_enemy_chase();
-	
+	switch(state){
+		case e_state.chase:
+			dir = scr_enemy_chase();
+			stateText = "chase";
+			break;
+		
+		case e_state.scatter:
+			dir = scr_enemy_scatter(old_dir , x  , y );
+			stateText = "scatter";
+			break;
+	}
 	scr_enemy_direction();
 }
 

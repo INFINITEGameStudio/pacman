@@ -8,3 +8,9 @@ var offset = -(CELL_SIZE/2);
 globalvar enemy_grid;
 enemy_grid = mp_grid_create(offset , offset , hcells , vcells , CELL_SIZE , CELL_SIZE);
 mp_grid_add_instances(enemy_grid , obj_wall , false);
+
+//state machine
+enum e_state {
+	chase ,
+	scatter
+}
