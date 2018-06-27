@@ -5,24 +5,28 @@ switch(dir){
 		is_moving = true;
 		move_timer = grid_size;
 		hsp = move_speed;
+		old_dir = 0;
 		break;
 		
 	case 1: //up
 		is_moving = true;
 		move_timer = grid_size;
 		vsp = - move_speed;	
+		old_dir = 1;
 		break;
 	
 	case 2: //left
 		is_moving = true;
 		move_timer = grid_size;
 		hsp = - move_speed;
+		old_dir = 2;
 		break;
 		
 	case 3: //down
 		is_moving = true;
 		move_timer = grid_size;
 		vsp = move_speed;	
+		old_dir = 3;
 		break;
 		
 	default:

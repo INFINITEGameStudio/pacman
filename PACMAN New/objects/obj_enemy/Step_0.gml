@@ -1,8 +1,8 @@
 ///@description Choosing Direction
-
+dir = scr_enemy_scatter(old_dir , x  , y );
 if(!is_moving){
 	
-	scr_enemy_chase();
+	//scr_enemy_chase();
 	
 	scr_enemy_direction();
 }
