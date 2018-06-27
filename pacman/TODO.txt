@@ -1,0 +1,17 @@
+TODO:
+
+	-player							done
+	-points							done
+	-enemy AI						done
+	-collectables					done
+	-musics and sounds				X
+	-android input					X
+	-menu			
+		-main						X
+		-pause						X
+		-credits					X
+	-level design					X
+	-art							
+		-player						X
+		-enemies					X
+		-collectables(more fruits)	X
