@@ -7,7 +7,7 @@ TODO:
 	-musics and sounds				X
 	-android input					X
 	-menu			
-		-main						X
+		-main						done (pixel art should be tweak)
 		-pause						X
 		-credits					X
 	-level design					X
@@ -15,3 +15,8 @@ TODO:
 		-player						X
 		-enemies					X
 		-collectables(more fruits)	X
+	-powerups
+		-player god mode			X
+	-enemy 
+		-death						X
+		-respawn					X
