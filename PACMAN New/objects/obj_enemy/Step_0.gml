@@ -29,3 +29,7 @@ if(is_moving){
 	}
 	
 }
+
+if(target == noone){
+	target = obj_player;
+}

@@ -54,4 +54,9 @@ if(place_meeting(x , y , par_collectables)){
 	with(coll){instance_destroy();}
 }
 
+//check collision with enemy
+//if(place_meeting(x , y , obj_enemy)){
+//	instance_destroy(self);	
+//}
+
 

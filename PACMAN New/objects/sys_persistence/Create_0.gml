@@ -17,4 +17,4 @@ enum e_state {
 }
 
 
-audio_play_sound(music_game , 0 , 1);
+//audio_play_sound(music_game , 0 , 1);
