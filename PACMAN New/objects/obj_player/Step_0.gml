@@ -53,3 +53,5 @@ if(place_meeting(x , y , par_collectables)){
 	
 	with(coll){instance_destroy();}
 }
+
+

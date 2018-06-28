@@ -1,0 +1,22 @@
+TODO:
+
+	-player							done
+	-points							done
+	-enemy AI						done
+	-collectables					done
+	-musics and sounds				X
+	-android input					X
+	-menu			
+		-main						done (pixel art should be tweak)
+		-pause						X
+		-credits					X
+	-level design					done(5 levels  drawn)
+	-art							
+		-player						X
+		-enemies					X
+		-collectables(more fruits)	X
+	-powerups
+		-player god mode			X
+	-enemy 
+		-death						X
+		-respawn					X

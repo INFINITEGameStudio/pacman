@@ -1,5 +1,6 @@
 ///@description Initialize Variables
 //Global variables
+global.godmode = false;
 globalvar CELL_SIZE; CELL_SIZE = 32;
 var hcells = (room_width / CELL_SIZE ) +1;
 var vcells = (room_height / CELL_SIZE ) +1;
@@ -14,3 +15,6 @@ enum e_state {
 	chase ,
 	scatter
 }
+
+
+audio_play_sound(music_game , 0 , 1);
